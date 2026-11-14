@@ -25,15 +25,16 @@ const SLIDES = [
 
 export default function HeroSection() {
   const [slide, setSlide] = useState(0);
-const [video, setVideo] = useState(false);
+  const [video, setVideo] = useState(false);
 
-useEffect(() => {
-  const interval = setInterval(() => {
-    setSlide((prev) => (prev + 1) % SLIDES.length);
-  }, 5000);
+  useEffect(() => {
+    if (video) return;
+    const interval = setInterval(() => {
+      setSlide((prev) => (prev + 1) % SLIDES.length);
+    }, 5000);
 
-  return () => clearInterval(interval);
-}, []);
+    return () => clearInterval(interval);
+  }, [video]);
 
 const s = SLIDES[slide];
 
