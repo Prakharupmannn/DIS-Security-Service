@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { color: #172B50; background: #fff; overflow-x: hidden; }
+section[id] { scroll-margin-top: 0; }
+
+.reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
+.reveal.in { opacity: 1; transform: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+
+@keyframes drift { from { transform: scale(1.04) translateX(0); } to { transform: scale(1.08) translateX(-10px); } }
+.drift { animation: drift 14s ease-in-out infinite alternate; }
+@keyframes fadeDown { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
+.fade-down { animation: fadeDown .2s ease both; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .drift, .fade-down { animation: none; }
+  * { transition-duration: .01ms !important; }
+}
+@keyframes heroFade {
+  from {
+    opacity: 0.4;
+    transform: scale(1.02);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-hero-fade {
+  animation: heroFade 1s ease-in-out;
+}
