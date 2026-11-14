@@ -10,9 +10,9 @@ export default function WhyChooseSection() {
     <section id="why-us" className="bg-white px-[5%] py-12 lg:py-16">
       <div className="mx-auto max-w-[1300px]">
         <Reveal>
-          <SectionHeading align="center" line="none" eyebrow="Why Choose DIS Security" title="Security You Can Rely On, Every Day" />
+          <SectionHeading align="center" line="none" eyebrow="Why Choose DIS Security Services" title="The ManTech Advantage: People, Process & Technology" />
           <div className="mx-auto mt-2 flex h-[3px] w-14"><span className="w-1/2 bg-navy" /><span className="w-1/2 bg-brand" /></div>
-          <p className="mx-auto mt-4 max-w-2xl text-center text-sm leading-relaxed text-muted">Protection is more than presence. It is discipline, training, technology and accountability working together.</p>
+          <p className="mx-auto mt-4 max-w-2xl text-center text-sm leading-relaxed text-muted">True security excellence demands more than physical presence. DIS Security Services integrates rigorous academy training, strict standard operating procedures, and intelligent tech-driven command systems.</p>
         </Reveal>
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {WHY.map(({ icon, title, text }, i) => {

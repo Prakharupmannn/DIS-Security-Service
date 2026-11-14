@@ -29,7 +29,7 @@ export default function StatsBand() {
     return () => io.disconnect();
   }, []);
   return (
-    <section ref={ref} aria-label="DIS Security in numbers" className="relative overflow-hidden bg-gradient-to-r from-deep via-navy to-navy2 px-[5%] py-10 text-white">
+    <section ref={ref} aria-label="DIS Security Services in numbers" className="relative overflow-hidden bg-gradient-to-r from-deep via-navy to-navy2 px-[5%] py-10 text-white">
       <div className="absolute inset-y-0 right-[18%] hidden w-1.5 skew-x-[-18deg] bg-brand/80 lg:block" aria-hidden="true" />
       <dl className="relative mx-auto grid max-w-[1200px] grid-cols-2 gap-y-8 lg:grid-cols-4">
         {STATS.map((s) => (

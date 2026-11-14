@@ -31,12 +31,12 @@ export default function QuoteSection() {
       <div className="absolute -left-20 top-0 h-full w-1.5 rotate-[14deg] bg-brand/70" aria-hidden="true" />
       <div className="relative mx-auto grid max-w-[1200px] gap-10 lg:grid-cols-[1fr_1.2fr]">
         <div>
-          <SectionHeading light eyebrow="Get a Quote" title="Let's Secure Your Premises" />
-          <p className="mt-4 max-w-md text-[13px] leading-relaxed text-white/85">Tell us about your site and requirements. Our team will get back with a tailored proposal, usually within one working day.</p>
+          <SectionHeading light eyebrow="Request a Proposal" title="Secure Your Premises with DIS ManTech" />
+          <p className="mt-4 max-w-md text-[13px] leading-relaxed text-white/85">Tell us about your facility, assets, and operational risk profile. Our security consultants will formulate a comprehensive, tailored ManTech security proposal, usually within one working day.</p>
           <ul className="mt-6 space-y-3 text-sm text-white/90">
-            <li className="flex items-center gap-3"><Phone size={18} className="text-brand" /> Add your phone number here</li>
-            <li className="flex items-center gap-3"><Mail size={18} className="text-brand" /> Add your email here</li>
-            <li className="flex items-center gap-3"><MapPin size={18} className="text-brand" /> Add your office address here</li>
+            <li className="flex items-center gap-3"><Phone size={18} className="text-brand" /> +91 (011) 4646 4444 / Regional Lines</li>
+            <li className="flex items-center gap-3"><Mail size={18} className="text-brand" /> corporatesales@dissecurity.in</li>
+            <li className="flex items-center gap-3"><MapPin size={18} className="text-brand" /> DIS Corporate Operations &amp; ARC Network Across India</li>
           </ul>
         </div>
 
@@ -68,7 +68,7 @@ export default function QuoteSection() {
           </div>
           <div className="flex flex-wrap items-center gap-4 sm:col-span-2">
             <button type="submit" disabled={status === "loading"} className="inline-flex h-12 items-center gap-2 rounded-full bg-gradient-to-r from-brand to-brand2 px-7 text-sm font-semibold transition hover:-translate-y-0.5 hover:brightness-110 disabled:opacity-60">
-              {status === "loading" ? "Sending..." : "Request a Quote"} <Send size={15} />
+              {status === "loading" ? "Sending..." : "Request a Proposal"} <Send size={15} />
             </button>
             <p role="status" className={`text-xs ${status === "error" ? "text-red-300" : "text-emerald-300"}`}>
               {status === "success" && "Thank you! We have received your request."}

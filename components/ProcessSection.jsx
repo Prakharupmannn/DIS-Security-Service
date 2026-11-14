@@ -10,7 +10,7 @@ export default function ProcessSection() {
     <section id="process" className="bg-gradient-to-b from-lblue to-light px-[5%] py-12 lg:py-16">
       <div className="mx-auto max-w-[1300px]">
         <Reveal>
-          <SectionHeading align="center" line="none" eyebrow="How We Work" title="A Simple, Proven Deployment Process" />
+          <SectionHeading align="center" line="none" eyebrow="Our Operational Framework" title="A Structured, Proven ManTech Deployment Process" />
           <div className="mx-auto mt-2 flex h-[3px] w-14"><span className="w-1/2 bg-navy" /><span className="w-1/2 bg-brand" /></div>
         </Reveal>
         <ol className="relative mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">

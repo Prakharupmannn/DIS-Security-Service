@@ -10,9 +10,9 @@ export default function FaqSection() {
     <section id="faq" className="bg-white px-[5%] py-12 lg:py-16">
       <div className="mx-auto grid max-w-[1200px] gap-8 lg:grid-cols-[1fr_1.6fr] lg:gap-14">
         <div>
-          <SectionHeading eyebrow="FAQs" title={<>Questions We Hear <br className="hidden lg:block" />Most Often</>} />
-          <p className="mt-4 max-w-sm text-[13px] leading-relaxed text-body">Can&apos;t find your answer? Our team is happy to walk you through options for your site.</p>
-          <a href="#quote" className="mt-5 inline-flex h-10 items-center rounded-full bg-brand px-5 text-xs font-semibold text-white transition hover:-translate-y-0.5 hover:bg-brand2">Talk to Our Team</a>
+          <SectionHeading eyebrow="Frequently Asked Questions" title={<>Essential Insights on <br className="hidden lg:block" />Our Security Solutions</>} />
+          <p className="mt-4 max-w-sm text-[13px] leading-relaxed text-body">Have questions about our ManTech framework, deployment turnaround, or compliance standards? Our security advisors are ready to walk you through options tailored to your site.</p>
+          <a href="#quote" className="mt-5 inline-flex h-10 items-center rounded-full bg-brand px-5 text-xs font-semibold text-white transition hover:-translate-y-0.5 hover:bg-brand2">Speak to a Security Advisor</a>
         </div>
         <div className="divide-y divide-navy/10 rounded-lg border border-navy/10">
           {FAQS.map((f, i) => {

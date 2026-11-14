@@ -5,9 +5,9 @@ import Reveal from "./Reveal";
 import { IMAGES } from "@/data/images";
 
 const STATS = [
-  { icon: ShieldCheck, value: "5000+", label: "Trained Security Personnel" },
-  { icon: Building2, value: "1000+", label: "Corporate Clients" },
-  { icon: MapPin, value: "Pan India", label: "Presence" },
+  { icon: ShieldCheck, value: "ManTech", label: "Integrated Security Model" },
+  { icon: Building2, value: "100%", label: "PSARA & Statutory Compliance" },
+  { icon: MapPin, value: "Pan-India", label: "Command & Control Network" },
 ];
 
 export default function AboutSection() {
@@ -22,9 +22,9 @@ export default function AboutSection() {
         </div>
 
         <Reveal className="px-[5%] py-8 lg:px-6 lg:py-10 xl:px-10">
-          <SectionHeading eyebrow="About DIS Security" title={<>Building a Safer<br /> and More Secure Society</>} />
-          <p className="mt-4 max-w-md text-[13px] leading-relaxed text-body">With decades of experience, DIS Security is India&apos;s leading security agency, committed to delivering innovative and reliable security solutions.</p>
-          <a href="#about" className="mt-5 inline-flex h-10 items-center gap-2 rounded-full bg-brand px-5 text-xs font-semibold text-white transition hover:-translate-y-0.5 hover:bg-brand2">Know More About Us <ArrowRight size={14} /></a>
+          <SectionHeading eyebrow="About DIS Security Services" title={<>A Market Leader in<br /> Essential Security Solutions</>} />
+          <p className="mt-4 max-w-md text-[13px] leading-relaxed text-body">Built on the foundational pillars of People, Process, and Technology, DIS Security Services is committed to building a safer and more secure society. We pioneer the ManTech security framework—blending academy-trained guarding personnel with advanced electronic surveillance to deliver unmatched operational vigilance and business continuity.</p>
+          <a href="#about" className="mt-5 inline-flex h-10 items-center gap-2 rounded-full bg-brand px-5 text-xs font-semibold text-white transition hover:-translate-y-0.5 hover:bg-brand2">Discover the DIS Advantage <ArrowRight size={14} /></a>
         </Reveal>
 
         <Reveal delay={150} className="mx-[5%] mb-8 grid grid-cols-2 gap-5 border-t border-navy/15 pt-6 sm:grid-cols-3 lg:m-0 lg:flex lg:flex-col lg:justify-center lg:gap-5 lg:border-l lg:border-t-0 lg:py-8 lg:pl-8">

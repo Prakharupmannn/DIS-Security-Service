@@ -8,17 +8,17 @@ import { IMAGES } from "@/data/images";
 const SLIDES = [
   {
     image: "/images/dimage1.png",
-    desc: "Delivering world-class security solutions for a safer and more secure tomorrow.",
+    desc: "Leader in Essential Security Services — delivering comprehensive physical and tech-enabled protection across India.",
     pos: "60% 20%",
   },
   {
     image: "/images/dimage2.png",
-    desc: "Trained people and smart technology, working together to protect what matters most.",
+    desc: "Pioneering the ManTech Model: empowering academy-trained security personnel with AI surveillance and smart command systems.",
     pos: "55% 25%",
   },
   {
     image: "/images/image6.jpg",
-    desc: "Trusted by leading businesses across India for reliable, round-the-clock protection.",
+    desc: "Securing critical enterprises, commercial hubs and communities with unwavering vigilance and 24x7 control room command.",
     pos: "65% 15%",
   },
 ];
@@ -64,7 +64,7 @@ const s = SLIDES[slide];
       <div className="absolute -z-10 hidden h-[130%] w-px rotate-[18deg] bg-gradient-to-b from-transparent via-brand/70 to-transparent lg:right-[30%] lg:top-[-10%] lg:block" />
 
       <div className="relative z-10 flex h-full flex-col justify-center px-[5%] pb-28 pt-32 lg:pb-16 lg:pt-24">
-        <p className="text-[11px] font-medium uppercase tracking-[0.12em] text-white sm:text-xs">Trust • Technology • People</p>
+        <p className="text-[11px] font-medium uppercase tracking-[0.12em] text-white sm:text-xs">People • Process • Technology</p>
         <h1 className="mt-3 font-extrabold leading-[1.05] text-white" style={{ fontSize: "clamp(2.1rem, 5.4vw, 3.6rem)" }}>
           DIS Security<br />
           <span className="font-bold">Always By </span>
@@ -75,17 +75,17 @@ const s = SLIDES[slide];
         </h1>
         <p className="mt-6 max-w-[22rem] text-[15px] leading-relaxed text-white/90 sm:text-base lg:max-w-sm">{s.desc}</p>
         <div className="mt-7 flex flex-wrap items-center gap-5">
-          <a href="#services" className="inline-flex h-12 items-center gap-2 rounded-full bg-gradient-to-r from-brand to-brand2 px-6 text-sm font-semibold text-white shadow-lg shadow-brand/30 transition hover:-translate-y-0.5 hover:brightness-110">Explore Our Services <ArrowRight size={16} /></a>
+          <a href="#services" className="inline-flex h-12 items-center gap-2 rounded-full bg-gradient-to-r from-brand to-brand2 px-6 text-sm font-semibold text-white shadow-lg shadow-brand/30 transition hover:-translate-y-0.5 hover:brightness-110">Explore Security Solutions <ArrowRight size={16} /></a>
           <button onClick={() => setVideo(true)} className="group inline-flex items-center gap-3 text-sm text-white">
             <span className="grid h-12 w-12 place-items-center rounded-full border-2 border-white transition group-hover:bg-white group-hover:text-navy"><Play size={16} fill="currentColor" /></span>
-            Watch Video
+            Watch Corporate Film
           </button>
         </div>
       </div>
 
       {/* vertical text */}
       <div className="absolute bottom-28 right-[5%] z-10 hidden text-sm font-semibold uppercase leading-snug tracking-wide text-white lg:block xl:bottom-32">
-        Securing<br />What<br />Matters
+        Securing<br />Your<br />World
         <span className="mt-3 block h-[2px] w-8 bg-brand" />
       </div>
 

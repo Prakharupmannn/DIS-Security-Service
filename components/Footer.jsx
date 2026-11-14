@@ -2,8 +2,8 @@ import { Linkedin, Youtube, Twitter, Facebook } from "lucide-react";
 import Logo from "./Logo";
 import NewsletterForm from "./NewsletterForm";
 
-const QUICK = [["Home", "#home"], ["About Us", "#about"], ["Services", "#services"], ["Industries", "#industries"], ["Careers", "#careers"], ["Contact", "#contact"]];
-const SOLUTIONS = ["Security Solutions", "Facility Management", "Cash Logistics", "Event Security"];
+const QUICK = [["Home", "#home"], ["About DIS", "#about"], ["Security Solutions", "#services"], ["Industries", "#industries"], ["Careers", "#careers"], ["Get a Proposal", "#quote"]];
+const SOLUTIONS = ["Manned Guarding", "Electronic Security & ARC", "ManTech Integrated Solutions", "Event & VIP Protection"];
 const SOCIAL = [[Linkedin, "LinkedIn"], [Youtube, "YouTube"], [Twitter, "X"], [Facebook, "Facebook"]];
 
 // deterministic skyline (no hydration mismatch)
@@ -16,7 +16,7 @@ export default function Footer() {
         {SKY.map((b, i) => <rect key={i} x={b.x} y={110 - b.h} width={b.w} height={b.h} fill="#5b8def" />)}
       </svg>
       <div className="relative mx-auto grid max-w-[1500px] gap-8 px-[5%] py-10 sm:grid-cols-2 lg:grid-cols-[1.2fr_1fr_1fr_1fr_1.3fr]">
-        <div><Logo size="lg" tagline="For a Safer Tomorrow" /></div>
+        <div><Logo size="lg" tagline="Always By Your Side" /></div>
         <nav aria-label="Quick links">
           <h3 className="text-sm font-semibold">Quick Links</h3>
           <ul className="mt-3 space-y-2 text-xs text-white/85">{QUICK.map(([l, h]) => <li key={l}><a href={h} className="hover:text-white hover:underline">{l}</a></li>)}</ul>
@@ -32,14 +32,14 @@ export default function Footer() {
           </div>
         </div>
         <div>
-          <h3 className="mb-3 text-sm font-semibold">Subscribe to Our Newsletter</h3>
+          <h3 className="mb-3 text-sm font-semibold">Subscribe to Security Insights</h3>
           <NewsletterForm />
         </div>
       </div>
       <div className="relative border-t border-white/15">
         <div className="mx-auto flex max-w-[1500px] flex-col gap-2 px-[5%] py-4 text-[11px] text-white/80 sm:flex-row sm:items-center sm:justify-between">
-          <p>© 2025 DIS Security. All Rights Reserved.</p>
-          <p className="flex flex-wrap gap-x-3"><a href="#" className="hover:text-white">Privacy Policy</a>|<a href="#" className="hover:text-white">Terms &amp; Conditions</a>|<a href="#" className="hover:text-white">Sitemap</a></p>
+          <p>© 2026 DIS Security Services. All Rights Reserved.</p>
+          <p className="flex flex-wrap gap-x-3"><a href="#" className="hover:text-white">Privacy Policy</a>|<a href="#" className="hover:text-white">Terms &amp; Conditions</a>|<a href="#" className="hover:text-white">PSARA Compliance</a>|<a href="#" className="hover:text-white">Sitemap</a></p>
         </div>
       </div>
     </footer>

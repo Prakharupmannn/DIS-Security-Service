@@ -4,11 +4,11 @@ import "./globals.css";
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "500", "600", "700", "800"], variable: "--font-poppins", display: "swap" });
 
 export const metadata = {
-  title: "DIS Security | Always By Your Side",
-  description: "DIS Security delivers world-class manpower, electronic, event, VIP and corporate security solutions across India.",
+  title: "DIS Security Services | Market Leader in Security Solutions | Always By Your Side",
+  description: "DIS Security Services delivers industry-leading ManTech security solutions, combining disciplined manpower with smart electronic surveillance, e-surveillance, and 24x7 alarm response across India.",
   openGraph: {
-    title: "DIS Security | Always By Your Side",
-    description: "World-class security solutions for a safer and more secure tomorrow.",
+    title: "DIS Security Services | Always By Your Side",
+    description: "Pioneering the ManTech model: integrating trained security personnel with modern technology for a safer tomorrow.",
     type: "website",
   },
 };

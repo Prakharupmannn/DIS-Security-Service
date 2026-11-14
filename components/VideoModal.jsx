@@ -71,7 +71,7 @@ export default function VideoModal({ open, onClose }) {
               </h3>
 
               <p className="mt-1 text-xs text-slate-400">
-                Official Corporate Film: Always By Your Side
+                Official Corporate Film: Always By Your Side | The ManTech Advantage
               </p>
             </div>
           </div>
@@ -136,16 +136,16 @@ export default function VideoModal({ open, onClose }) {
 
           {[
             [
-              "1. Professional Training",
-              "Trained security personnel and rigorous training programs",
+              "1. Academy Training & Verification",
+              "Rigorous residential academy curriculum, police clearance, and continuous digital skill enhancement.",
             ],
             [
-              "2. Modern Technology",
-              "Advanced CCTV surveillance and smart security solutions",
+              "2. ManTech & E-Surveillance",
+              "AI-driven CCTV surveillance, smart access integration, and 24x7 Alarm Response Centre (ARC) tracking.",
             ],
             [
-              "3. Reliable Protection",
-              "Dedicated security teams for comprehensive protection",
+              "3. Operational Governance",
+              "100% PSARA statutory compliance, dedicated account management, and round-the-clock supervisor patrol audits.",
             ],
           ].map(([title, description]) => (
             <div
