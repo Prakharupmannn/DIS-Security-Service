@@ -12,12 +12,12 @@ export function ShieldEmblem({ className = "h-12 w-12" }) {
 export default function Logo({ size = "md", tagline }) {
   const big = size === "lg";
   return (
-    <a href="#home" className="flex items-center gap-2.5 text-white" aria-label="DIS Security home">
-      <ShieldEmblem className={big ? "h-14 w-14" : "h-11 w-11 sm:h-12 sm:w-12"} />
+    <a href="#home" className="flex items-center gap-2 sm:gap-2.5 text-white shrink-0" aria-label="DIS Security home">
+      <ShieldEmblem className={big ? "h-11 w-11 sm:h-14 sm:w-14" : "h-9 w-9 sm:h-11 sm:w-11 lg:h-12 lg:w-12"} />
       <span className="leading-none">
-        <span className={`block font-extrabold tracking-wide ${big ? "text-4xl" : "text-2xl sm:text-[28px]"}`}>DIS</span>
-        <span className={`block font-bold tracking-wide ${big ? "text-2xl" : "text-base sm:text-lg"}`}>SECURITY</span>
-        {tagline && <span className="mt-1 block text-xs font-normal text-white/80">{tagline}</span>}
+        <span className={`block font-extrabold tracking-wide ${big ? "text-2xl sm:text-3xl lg:text-4xl" : "text-xl sm:text-2xl lg:text-[28px]"}`}>DIS</span>
+        <span className={`block font-bold tracking-wide ${big ? "text-base sm:text-xl lg:text-2xl" : "text-xs sm:text-base lg:text-lg"}`}>SECURITY</span>
+        {tagline && <span className="mt-1 block text-[10px] sm:text-xs font-normal text-white/80">{tagline}</span>}
       </span>
     </a>
   );

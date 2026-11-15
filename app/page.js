@@ -13,9 +13,9 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <>
+    <div className="relative min-h-screen w-full overflow-x-clip">
       <Header />
-      <main>
+      <main className="w-full">
         <HeroSection />
         <ServicesSection />
         <AboutSection />
@@ -28,6 +28,6 @@ export default function Home() {
         <QuoteSection />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }

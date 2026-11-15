@@ -56,11 +56,11 @@ export default function VideoModal({ open, onClose }) {
               <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-brand to-brand2 text-white shadow-lg shadow-brand/30">
                 <Shield className="h-5 w-5" />
               </div>
-              <div>
-                <h3 className="text-sm font-bold leading-tight text-white sm:text-base">
+              <div className="min-w-0 flex-1">
+                <h3 className="text-xs sm:text-base font-bold leading-tight text-white truncate">
                   DIS Security Operations & Command Center
                 </h3>
-                <p className="mt-0.5 text-xs text-slate-400">
+                <p className="mt-0.5 text-[10px] sm:text-xs text-slate-400 truncate">
                   Official Corporate Film • Always By Your Side
                 </p>
               </div>
