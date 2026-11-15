@@ -2,7 +2,6 @@ import { ArrowRight, ShieldCheck, Building2, MapPin } from "lucide-react";
 import Photo from "./Photo";
 import SectionHeading from "./SectionHeading";
 import Reveal from "./Reveal";
-import { IMAGES } from "@/data/images";
 
 const STATS = [
   { icon: ShieldCheck, value: "ManTech", label: "Integrated Security Model" },
