@@ -6,6 +6,7 @@ html {
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -16,12 +17,14 @@ body {
   width: 100%;
 }
 
-section[id] {
+section[id],
+footer[id] {
   scroll-margin-top: 80px;
 }
 
 @media (min-width: 1024px) {
-  section[id] {
+  section[id],
+  footer[id] {
     scroll-margin-top: 90px;
   }
 }

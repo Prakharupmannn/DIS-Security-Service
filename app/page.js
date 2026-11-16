@@ -9,6 +9,7 @@ import StatsBand from "@/components/StatsBand";
 import FaqSection from "@/components/FaqSection";
 import TestimonialCareerSection from "@/components/TestimonialCareerSection";
 import QuoteSection from "@/components/QuoteSection";
+import NewsletterCard from "@/components/NewsletterCard";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
         <FaqSection />
         <TestimonialCareerSection />
         <QuoteSection />
+        <NewsletterCard />
       </main>
       <Footer />
     </div>
